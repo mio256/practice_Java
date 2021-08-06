@@ -1,11 +1,8 @@
 {
     // Java
-    "java.home":"/usr/lib/jvm/java-version-xxx-jdk",
-  
+    "java.home": "/usr/lib/jvm/OpenJDK11",
     // Maven
     "maven.executable.path": "/usr/bin/mvn",
-  
     // Code Runner
     "code-runner.runInTerminal": true,
 }
-  
