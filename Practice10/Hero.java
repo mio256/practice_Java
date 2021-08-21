@@ -1,9 +1,8 @@
-package practice.firstgame;
+package Practice10;
 
 public class Hero {
     String name; // declaration name
     int hp; // declaration hp
-    Sword sword;
 
     public void sleep() {
         this.hp = 100;
@@ -27,11 +26,6 @@ public class Hero {
         System.out.println(this.name + " run away.");
         System.out.println("GAMEOVER");
         System.out.println("final HP is " + this.hp + ".");
-    }
-
-    public void attack() {
-        System.out.println(this.name + " attacked by " + this.sword.name);
-        System.out.println("damage is " + sword.damage + ".");
     }
 
     public Hero(String name) {

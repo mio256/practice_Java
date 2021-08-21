@@ -2,6 +2,14 @@ package practice.firstgame;
 
 public class Main {
     public static void main(String[] args) {
+        Weapon w = new Weapon();
+        System.out.println(w.name);
+
+        // Hero h = new Hero();
+        // h.run();
+        // SuperHero sh = new SuperHero();
+        // sh.run();
+
         // Hero hero_minato = new Hero();
         // hero_minato.name = "minato";
         // hero_minato.hp = 100;
@@ -31,8 +39,11 @@ public class Main {
         // Wizard wizard_naoto = new Wizard();
         // wizard_naoto.heal(hero_minato);
 
-        Hero h = new Hero("minato");
-        System.out.println(h.hp);
-        System.out.println(h.name);
+        // Hero h = new Hero("minato");
+        // System.out.println(h.hp);
+        // System.out.println(h.name);
+
+        // SuperHero sh = new SuperHero();
+        // sh.run();
     }
 }
