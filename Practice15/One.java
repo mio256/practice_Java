@@ -2,16 +2,18 @@ package Practice15;
 
 public class One {
     public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+        String str = new String();
+        for (int i = 1; i <= 10000; i++) {
+            str = str + "HelloWorld.";
+        }
+        System.out.println(System.currentTimeMillis() - start);
+
+        start = System.currentTimeMillis();
         StringBuilder sb = new StringBuilder();
-        for (int i = 1; i <= 100; i++) {
-            sb.append(i);
-            sb.append(",");
+        for (int i = 1; i <= 10000; i++) {
+            sb.append("HelloWorld.");
         }
-        String s = sb.toString();
-        System.out.println(s);
-        String[] a = s.split(",");
-        for (String sa : a) {
-            System.out.println(sa);
-        }
+        System.out.println(System.currentTimeMillis() - start);
     }
 }
