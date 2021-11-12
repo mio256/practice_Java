@@ -1,8 +1,10 @@
 {
-    // Java
-    "java.home": "/usr/lib/jvm/OpenJDK11",
-    // Maven
     "maven.executable.path": "/usr/bin/mvn",
     // Code Runner
     "code-runner.runInTerminal": true,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/lib/jvm/lib/commons-lang3-3.12.0.jar",
+        "/lib/jvm/lib/h2/bin/h2-1.4.200.jar"
+    ],
 }
